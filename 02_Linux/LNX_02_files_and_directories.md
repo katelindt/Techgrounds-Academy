@@ -4,7 +4,7 @@ Creating and editing files
 
 
 ## Key terminology
-
+- File System - the structure of the files in a system and how they can be reached.
 - Directory - a file system cataloging structure which contains references to other computer files, and possibly other directories. 
 - Absolute path - complete path from start of actual file system from / directory.
 - Relative path - path related to the present working directly(pwd)

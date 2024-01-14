@@ -4,10 +4,10 @@ Connecting to Linux VM
 
 
 ## Key terminology
-
-- CLI - command line
-- GUI - grafical user interface
-- VM - virtual Machine
+- Linux - a family of open-source operating systems that use the same kernel
+- CLI - command line, where a program can be controlled through entered commands.
+- GUI - grafical user interface, which contains dashboards where a program can be controlled
+- VM - virtual Machine, an operating system that runs on its own on top of another hosting operating system and uses a separate part of the hardware resources.
 - SSH - Secure Shell is a network communication protocol that enables two computers to communicate and share data.
 
 ## Exercise
@@ -32,3 +32,13 @@ I forgot to change permissions of the key but I quickly realized and corrected t
 
 ![screenshot](/00_includes/linux_01_screenshot.png)
 
+
+ssh -i pemfile-location username@ipaddress -p portnumber where
+
+i is the identity file(file from which the identity key or the private key is read for public key authentication)
+
+-p - port to connect to remote server
+
+username - account used to login to the server
+
+ip address - ip address of the remote server.
